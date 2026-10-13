@@ -1,0 +1,29 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Sun Oct 11 02:07:00 2026 by the following command:
+#    imfit ../data/J0100-15157/F115W.fits[86:115,86:115] -c ../configs/J0100-15157/F115W_2sersic.dat --psf ../PSF_files/J0100-15157/F115W.fits --sky=0.21 --save-model ../imfit_models/J0100-15157/F115W_2sersic.fits --save-residual ../imfit_resid/J0100-15157/F115W_2sersic.fits --save-params ../imfit_params/J0100-15157/F115W_2sersic.dat
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 5 -- Terminated: Maximum number of iterations reached
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 21.713962
+#   Reduced value: 0.024508
+#   AIC: 50.188538
+#   BIC: 116.947488
+
+X0		101.0342 # +/- 1.5710
+Y0		99.1352 # +/- 1.9054
+FUNCTION Sersic   # LABEL main
+PA		7.37638 # +/- 544.49	deg (CCW from +y axis)
+ell		0.100012 # +/- 1.7951
+n		0.940515 # +/- 3.7741
+I_e		0.162406 # +/- 0.47125	counts/pixel
+r_e		1.84937 # +/- 3.1096	pixels
+
+X0		197.9921 # +/- 0.0000
+Y0		102.0015 # +/- 0.0000
+FUNCTION Sersic   # LABEL secondary
+PA		3.17825e-11 # +/- 0	deg (CCW from +y axis)
+ell		    0.8 # +/- 0
+n		    0.3 # +/- 0
+I_e		      0 # +/- 0	counts/pixel
+r_e		2.29417 # +/- 0	pixels

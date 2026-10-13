@@ -1,0 +1,9 @@
+X0      102      96,106
+Y0      101      96,106
+
+FUNCTION Sersic   # LABEL sersic
+PA      0         0,180
+ell     0.1       0,0.7
+n       2.0       1,3
+I_e     10        0,1000
+r_e     2.0       0.05,10

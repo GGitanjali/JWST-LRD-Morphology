@@ -1,0 +1,20 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Mon Oct  5 00:08:14 2026 by the following command:
+#    imfit ../data/J0100-2017/F356W.fits[91:110,91:110] -c ../configs/J0100-2017/F356W_sersic.dat --psf ../PSF_files/J0100-2017/F356W.fits --sky=0.13 --save-model ../imfit_models/J0100-2017/F356W_sersic.fits --save-residual ../imfit_resid/J0100-2017/F356W_sersic.fits --save-params ../imfit_params/J0100-2017/F356W_sersic.dat
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 2 -- SUCCESS: Convergence in parameter value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 3.268402
+#   Reduced value: 0.008317
+#   AIC: 17.554116
+#   BIC: 45.208654
+
+X0		102.6750 # +/- 0.3761
+Y0		101.4750 # +/- 0.5536
+FUNCTION Sersic   # LABEL sersic
+PA		136.113 # +/- 91957	deg (CCW from +y axis)
+ell		0.000228019 # +/- 0.70694
+n		      3 # +/- 0
+I_e		0.551866 # +/- 1.4785	counts/pixel
+r_e		1.96937 # +/- 2.6243	pixels

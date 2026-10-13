@@ -1,0 +1,14 @@
+X0      101.2
+Y0      101.5
+
+FUNCTION Gaussian
+PA      0
+ell     0.04
+I_0     25
+sigma   0.8
+
+FUNCTION Exponential
+PA      0
+ell     0.05
+I_0     10
+h       1.5

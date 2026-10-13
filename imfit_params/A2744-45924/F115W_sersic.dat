@@ -1,0 +1,20 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Sun Oct 11 11:05:33 2026 by the following command:
+#    imfit ../data/A2744-45924/F115W.fits[91:110, 91:110] -c ../configs/A2744-45924/F115W_sersic.dat --psf ../PSF_files/A2744-45924/F115W.fits --sky=0.08 --save-model ../imfit_models/A2744-45924/F115W_sersic.fits --save-residual ../imfit_resid/A2744-45924/F115W_sersic.fits --save-params ../imfit_params/A2744-45924/F115W_sersic.dat
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 2 -- SUCCESS: Convergence in parameter value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 6.064859
+#   Reduced value: 0.015432
+#   AIC: 20.350573
+#   BIC: 48.005111
+
+X0		100.6050 # +/- 0.3022
+Y0		100.7850 # +/- 0.7486
+FUNCTION Sersic   # LABEL main
+PA		      0 # +/- 0	deg (CCW from +y axis)
+ell		0.0999828 # +/- 4.6516
+n		      3 # +/- 0
+I_e		33.0264 # +/- 494.57	counts/pixel
+r_e		0.158549 # +/- 0.8202	pixels

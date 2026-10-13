@@ -1,0 +1,10 @@
+X0      101
+Y0      102
+
+FUNCTION Gaussian
+PA      0
+ell     0.1
+I_0     39
+sigma   2
+
+

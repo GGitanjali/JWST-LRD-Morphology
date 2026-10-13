@@ -1,0 +1,20 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Mon Oct  5 10:26:12 2026 by the following command:
+#    imfit ../data/RUBIES-BLAGN-1/F356W.fits[91:110,91:110] -c ../configs/RUBIES-BLAGN-1/F356W_sersic.dat --psf ../PSF_files/RUBIES-BLAGN-1/F356W.fits --sky=0.13 --save-model ../imfit_models/RUBIES-BLAGN-1/F356W_sersic.fits --save-residual ../imfit_resid/RUBIES-BLAGN-1/F356W_sersic.fits --save-params ../imfit_params/RUBIES-BLAGN-1/F356W_sersic.dat
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 12.139724
+#   Reduced value: 0.030890
+#   AIC: 26.425438
+#   BIC: 54.079976
+
+X0		101.6311 # +/- 0.1148
+Y0		102.0477 # +/- 0.1016
+FUNCTION Sersic   # LABEL main
+PA		5.61308 # +/- 96.526	deg (CCW from +y axis)
+ell		0.101513 # +/- 0.36365
+n		 1.3619 # +/- 1.7632
+I_e		119.486 # +/- 62.759	counts/pixel
+r_e		0.525676 # +/- 0.22631	pixels

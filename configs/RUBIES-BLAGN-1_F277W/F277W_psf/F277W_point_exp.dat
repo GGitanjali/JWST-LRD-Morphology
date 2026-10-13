@@ -1,0 +1,11 @@
+X0      101.2
+Y0      101.5
+
+FUNCTION PointSource
+I_0     300
+
+FUNCTION Exponential
+PA      0
+ell     0.1
+I_0     10
+h       1.5

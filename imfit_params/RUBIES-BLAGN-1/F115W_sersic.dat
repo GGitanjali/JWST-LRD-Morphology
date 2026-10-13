@@ -1,0 +1,20 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Sun Oct 11 02:52:17 2026 by the following command:
+#    imfit ../data/RUBIES-BLAGN-1/F115W.fits[91:110, 91:110] -c ../configs/RUBIES-BLAGN-1/F115W_sersic.dat --psf ../PSF_files/RUBIES-BLAGN-1/F115W.fits --sky=0.26 --save-model ../imfit_models/RUBIES-BLAGN-1/F115W_sersic.fits --save-residual ../imfit_resid/RUBIES-BLAGN-1/F115W_sersic.fits --save-params ../imfit_params/RUBIES-BLAGN-1/F115W_sersic.dat
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 5.877914
+#   Reduced value: 0.014957
+#   AIC: 20.163628
+#   BIC: 47.818166
+
+X0		101.6882 # +/- 0.6163
+Y0		101.6559 # +/- 0.5424
+FUNCTION Sersic   # LABEL main
+PA		36.4303 # +/- 842.15	deg (CCW from +y axis)
+ell		0.102869 # +/- 2.274
+n		      2 # +/- 0
+I_e		2.37172 # +/- 9.3006	counts/pixel
+r_e		0.462849 # +/- 1.0827	pixels

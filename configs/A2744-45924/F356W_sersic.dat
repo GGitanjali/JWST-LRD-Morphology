@@ -1,0 +1,10 @@
+# First component
+X0      100      97,103
+Y0      100      97,103
+
+FUNCTION Sersic   # LABEL main
+PA      0         0,180
+ell     0.1       0,0.7
+n       2.0       0.5,6
+I_e     10        0,1000
+r_e     2.0       0.05,8

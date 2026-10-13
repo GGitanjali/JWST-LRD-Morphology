@@ -1,0 +1,5 @@
+X0      104      96,106
+Y0      101      96,106
+
+FUNCTION PointSource   # LABEL point_source
+I_tot   24            0,100000

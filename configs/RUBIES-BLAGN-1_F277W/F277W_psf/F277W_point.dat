@@ -1,0 +1,8 @@
+X0      101.2
+Y0      101.5
+
+FUNCTION PointSource
+I_tot   300
+
+#It takes the supplied PSF, interpolates it to the fitted center,
+#and scales its intensity; I_tot normally corresponds to the total flux of the point source.

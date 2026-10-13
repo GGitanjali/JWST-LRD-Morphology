@@ -1,0 +1,19 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Tue Sep  1 11:41:02 2026 by the following command:
+#    imfit data/F277W.fits -c configs/F277W.dat --sky=0.13 --save-model imfit_models/F277W_model.fits --save-residual imfit_resid/F277W_resid.fits --save-params imfit_params/F277W_gaussian_bestfit.dat
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 270.042110
+#   Reduced value: 0.006752
+#   AIC: 282.044210
+#   BIC: 333.621918
+
+X0		101.1757 # +/- 0.0663
+Y0		101.4905 # +/- 0.0687
+FUNCTION Gaussian
+PA		-4.39906 # +/- 50.286	deg (CCW from +y axis)
+ell		0.0383413 # +/- 0.065272
+I_0		38.5877 # +/- 3.6369	counts/pixel
+sigma		1.14982 # +/- 0.058949	pixels

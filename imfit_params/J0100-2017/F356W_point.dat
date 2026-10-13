@@ -1,0 +1,16 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Mon Oct  5 00:12:59 2026 by the following command:
+#    imfit ../data/J0100-2017/F356W.fits[91:110,91:110] -c ../configs/J0100-2017/F356W_point.dat --psf ../PSF_files/J0100-2017/F356W.fits --sky=0.13 --save-model ../imfit_models/J0100-2017/F356W_point.fits --save-residual ../imfit_resid/J0100-2017/F356W_point.fits --save-params ../imfit_params/J0100-2017/F356W_point.dat
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 8.388728
+#   Reduced value: 0.021130
+#   AIC: 14.449334
+#   BIC: 26.363122
+
+X0		102.3579 # +/- 0.3001
+Y0		101.0133 # +/- 0.2982
+FUNCTION PointSource   # LABEL point_source
+I_tot		 24.301 # +/- 5.866	counts

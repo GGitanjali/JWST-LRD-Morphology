@@ -1,0 +1,9 @@
+X0      101.18
+Y0      101.49
+
+FUNCTION Sersic
+PA      0
+ell     0.05
+n       1.29
+I_e     5.0
+r_e     2.0
