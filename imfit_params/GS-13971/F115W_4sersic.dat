@@ -1,0 +1,47 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Mon Oct 26 17:27:01 2026 by the following command:
+#    imfit ../data/GS-13971/F115W.fits[91:110, 91:110] -c ../configs/GS-13971/F115W_4sersic.dat --psf ../PSF_files/GS-13971/F115W.fits --sky=0.05 --save-model ../imfit_models/GS-13971/F115W_4sersic.fits --save-residual ../imfit_resid/GS-13971/F115W_4sersic.fits --save-params ../imfit_params/GS-13971/F115W_4sersic.dat
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 2.066885
+#   Reduced value: 0.005556
+#   AIC: 62.444244
+#   BIC: 169.827893
+
+X0		97.0331 # +/- 3.0615
+Y0		92.5967 # +/- 8.8708
+FUNCTION Sersic   # LABEL main
+PA		      0 # +/- 0	deg (CCW from +y axis)
+ell		0.100026 # +/- 23.219
+n		      6 # +/- 0
+I_e		5.83006 # +/- 1255.7	counts/pixel
+r_e		0.154881 # +/- 12.671	pixels
+
+X0		97.8029 # +/- 2.7269
+Y0		94.1396 # +/- 4.8602
+FUNCTION Sersic   # LABEL bridge
+PA		      0 # +/- 0	deg (CCW from +y axis)
+ell		0.494131 # +/- 1.3774
+n		1.19369 # +/- 7.1203
+I_e		0.161289 # +/- 1.0727	counts/pixel
+r_e		1.94896 # +/- 5.4889	pixels
+
+X0		100.1900 # +/- 0.8824
+Y0		100.2369 # +/- 1.8245
+FUNCTION Sersic   # LABEL middle
+PA		      0 # +/- 0	deg (CCW from +y axis)
+ell		0.644593 # +/- 0.63701
+n		0.69266 # +/- 2.9055
+I_e		0.228757 # +/- 0.52922	counts/pixel
+r_e		2.29652 # +/- 2.5446	pixels
+
+X0		104.4229 # +/- 0.9464
+Y0		104.4339 # +/- 0.7350
+FUNCTION Sersic   # LABEL upper_right
+PA		1.95851e-11 # +/- 0	deg (CCW from +y axis)
+ell		      0 # +/- 0
+n		3.32504 # +/- 29.423
+I_e		0.0848826 # +/- 0.8537	counts/pixel
+r_e		1.43179 # +/- 6.5748	pixels

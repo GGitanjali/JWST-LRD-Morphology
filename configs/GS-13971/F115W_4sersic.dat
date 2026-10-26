@@ -11,12 +11,25 @@ I_e     10        0,1000
 r_e     2.0       0.05,8
 
 
+# Bridge component between first two dots
+
+X0      99       97,101
+Y0      97       94,100
+
+FUNCTION Sersic   # LABEL bridge
+PA      30        0,180
+ell     0.5       0,0.95
+n       1.0       0.3,4
+I_e     2         0,1000
+r_e     1.8       0.05,6
+
+
 # Middle component
 
 X0      100      97,103
 Y0      100      97,103
 
-FUNCTION Sersic   # LABEL lower_left
+FUNCTION Sersic   # LABEL middle
 PA      0         0,180
 ell     0.3       0,0.9
 n       1.0       0.3,4

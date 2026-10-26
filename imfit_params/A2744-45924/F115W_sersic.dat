@@ -1,20 +1,28 @@
 # Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
-# Generated on Sun Oct 11 11:05:33 2026 by the following command:
+# Generated on Mon Oct 26 16:49:01 2026 by the following command:
 #    imfit ../data/A2744-45924/F115W.fits[91:110, 91:110] -c ../configs/A2744-45924/F115W_sersic.dat --psf ../PSF_files/A2744-45924/F115W.fits --sky=0.08 --save-model ../imfit_models/A2744-45924/F115W_sersic.fits --save-residual ../imfit_resid/A2744-45924/F115W_sersic.fits --save-params ../imfit_params/A2744-45924/F115W_sersic.dat
 
 # Results of fit:
-#   Algorithm: Levenberg-Marquardt: status = 2 -- SUCCESS: Convergence in parameter value.
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
 #   Fit statistic: chi-squared (data-based errors)
-#   Best-fit value: 6.064859
-#   Reduced value: 0.015432
-#   AIC: 20.350573
-#   BIC: 48.005111
+#   Best-fit value: 3.331898
+#   Reduced value: 0.008610
+#   AIC: 30.274903
+#   BIC: 81.220937
 
-X0		100.6050 # +/- 0.3022
-Y0		100.7850 # +/- 0.7486
+X0		101.1053 # +/- 2.2693
+Y0		103.0000 # +/- 0.0000
 FUNCTION Sersic   # LABEL main
+PA		6.20928 # +/- 1.0883e+08	deg (CCW from +y axis)
+ell		      0 # +/- 0
+n		    0.5 # +/- 0
+I_e		0.101523 # +/- 0.16468	counts/pixel
+r_e		2.43009 # +/- 2.0118	pixels
+
+X0		101.0497 # +/- 0.5163
+Y0		101.0856 # +/- 0.3254
+FUNCTION Exponential   # LABEL diffuse
 PA		      0 # +/- 0	deg (CCW from +y axis)
-ell		0.0999828 # +/- 4.6516
-n		      3 # +/- 0
-I_e		33.0264 # +/- 494.57	counts/pixel
-r_e		0.158549 # +/- 0.8202	pixels
+ell		0.390398 # +/- 0.73904
+I_0		 44.701 # +/- 52.262	counts/pixel
+h		    0.3 # +/- 0	pixels

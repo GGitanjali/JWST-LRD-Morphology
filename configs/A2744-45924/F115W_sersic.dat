@@ -8,3 +8,13 @@ ell     0.1       0,0.7
 n       1.0       0.5,3   # for RUbies now
 I_e     10        0,1000
 r_e     2.0       0.05,8
+
+# Diffuse component
+X0      101      98,104
+Y0      104      101,107
+
+FUNCTION Exponential   # LABEL diffuse
+PA      0         0,180
+ell     0.2       0,0.8
+I_0     1.0       0,100
+h       3.0       0.3,8

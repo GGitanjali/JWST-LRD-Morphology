@@ -1,22 +1,24 @@
-# Main component
-X0      101      96,104
-Y0      99      96,103
+# Main central component
+
+X0      101      98,104
+Y0      100      97,103
 
 FUNCTION Sersic   # LABEL main
 PA      0         0,180
-ell     0.1       0,0.7
+ell     0.2       0,0.9
 n       2.0       0.5,6
 I_e     10        0,1000
 r_e     2.0       0.05,8
 
 
 # Upper-left component
-X0      198       195,201
-Y0      102      102,108
+
+X0      98       95,101
+Y0      102      99,105
 
 FUNCTION Sersic   # LABEL secondary
 PA      0         0,180
-ell     0.3       0,0.8
-n       1.0       0.3,4
-I_e     2         0,1000
-r_e     2.0       0.05,8
+ell     0.2       0,0.9
+n       1.0       0.3,5
+I_e     3         0,1000
+r_e     1.5       0.05,6

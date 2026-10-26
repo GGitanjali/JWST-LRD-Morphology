@@ -1,29 +1,29 @@
 # Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
-# Generated on Sun Oct 11 02:07:00 2026 by the following command:
-#    imfit ../data/J0100-15157/F115W.fits[86:115,86:115] -c ../configs/J0100-15157/F115W_2sersic.dat --psf ../PSF_files/J0100-15157/F115W.fits --sky=0.21 --save-model ../imfit_models/J0100-15157/F115W_2sersic.fits --save-residual ../imfit_resid/J0100-15157/F115W_2sersic.fits --save-params ../imfit_params/J0100-15157/F115W_2sersic.dat
+# Generated on Mon Oct 26 16:04:41 2026 by the following command:
+#    imfit ../data/J0100-15157/F115W.fits[91:110, 91:110] -c ../configs/J0100-15157/F115W_2sersic.dat --psf ../PSF_files/J0100-15157/F115W.fits --sky=0.21 --save-model ../imfit_models/J0100-15157/F115W_2sersic.fits --save-residual ../imfit_resid/J0100-15157/F115W_2sersic.fits --save-params ../imfit_params/J0100-15157/F115W_2sersic.dat
 
 # Results of fit:
-#   Algorithm: Levenberg-Marquardt: status = 5 -- Terminated: Maximum number of iterations reached
+#   Algorithm: Levenberg-Marquardt: status = 3 -- SUCCESS: Convergence in fit-statistic and parameter value.
 #   Fit statistic: chi-squared (data-based errors)
-#   Best-fit value: 21.713962
-#   Reduced value: 0.024508
-#   AIC: 50.188538
-#   BIC: 116.947488
+#   Best-fit value: 14835.462739
+#   Reduced value: 38.433841
+#   AIC: 14864.553648
+#   BIC: 14919.343243
 
-X0		101.0342 # +/- 1.5710
-Y0		99.1352 # +/- 1.9054
+X0		101.0000 # +/- 0.0002
+Y0		99.0000 # +/- 0.0209
 FUNCTION Sersic   # LABEL main
-PA		7.37638 # +/- 544.49	deg (CCW from +y axis)
-ell		0.100012 # +/- 1.7951
-n		0.940515 # +/- 3.7741
-I_e		0.162406 # +/- 0.47125	counts/pixel
-r_e		1.84937 # +/- 3.1096	pixels
+PA		      0 # +/- 0	deg (CCW from +y axis)
+ell		    0.1 # +/- 2.4294e-06
+n		1.99996 # +/- 0.10758
+I_e		 9.9996 # +/- 0.60053	counts/pixel
+r_e		1.99999 # +/- 0.058975	pixels
 
-X0		197.9921 # +/- 0.0000
-Y0		102.0015 # +/- 0.0000
+X0		197.9880 # +/- 143021817.2026
+Y0		102.0015 # +/- 18908886.5863
 FUNCTION Sersic   # LABEL secondary
-PA		3.17825e-11 # +/- 0	deg (CCW from +y axis)
-ell		    0.8 # +/- 0
+PA		 14.972 # +/- 1.606e+07	deg (CCW from +y axis)
+ell		0.433568 # +/- 4.3544e+05
 n		    0.3 # +/- 0
-I_e		      0 # +/- 0	counts/pixel
-r_e		2.29417 # +/- 0	pixels
+I_e		2.20225 # +/- 3.1226e+06	counts/pixel
+r_e		   0.05 # +/- 59150	pixels
